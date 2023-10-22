@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import * as THREE from "three";
 
-export default function Home() {
+export default function Page() {
   const innerWidth = 1000;
   const innerHeight = 500;
   const scene = new THREE.Scene();

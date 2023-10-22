@@ -22,6 +22,17 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/components/ACanvas.jsx",
+    "src/app/page.jsx",
+    "src/app/components/Floor.jsx",
+    "src/app/components/ABox.jsx",
+    "src/app/components/LightBulb.jsx",
+    "src/app/components/Controls.jsx"
+  ],
   "exclude": ["node_modules"]
 }
