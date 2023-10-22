@@ -32,7 +32,10 @@
     "src/app/components/Floor.jsx",
     "src/app/components/ABox.jsx",
     "src/app/components/LightBulb.jsx",
-    "src/app/components/Controls.jsx"
+    "src/app/components/Controls.jsx",
+    "src/app/components/Draggable.jsx",
+    "src/app/components/Model.jsx",
+    "src/app/components/ImportBox.jsx"
   ],
   "exclude": ["node_modules"]
 }

@@ -5,7 +5,6 @@ import ABox from "./components/ABox";
 import LightBulb from "./components/LightBulb";
 import Controls from "./components/Controls";
 import Draggable from "./components/Draggable";
-
 import Importbox from "./components/ImportBox";
 
 export default function Home() {
@@ -23,9 +22,8 @@ export default function Home() {
         <Draggable>
           <ABox rotateX={3} rotateY={0.2} />
         </Draggable>
-        <Draggable>
-          <Importbox />
-        </Draggable>
+
+        <Importbox />
         <LightBulb position={[0, 3, 0]} />
         <Controls />
 
